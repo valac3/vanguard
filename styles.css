@@ -131,7 +131,7 @@ h1.logo::before {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: ;
+    transition: height 0.5s ease;
     height: 0;
 }
 /* THIS ONE IS DONE FOR YOU */
