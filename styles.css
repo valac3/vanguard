@@ -75,11 +75,16 @@ body {
 }
 
 /* ADD A DIV WITH THE CLASS OF CONTAINER TO EVERY CONTENT CONTAINER THIS IS ALLOW THE BASE ELEMENTS TO BE 100% WIDTH, BUT CONSTRAIN THE ACTUAL CONTENT TO 90% */
+header, section, footer {
+    width: 100%;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
  {
