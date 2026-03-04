@@ -84,46 +84,30 @@ header, section, footer {
     margin: 0 auto;
 }
 
+h1, h2, h3 {
+    font-family: var(--font);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--white);
+}
+
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.5rem;  }
+h3 { font-size: 1.1rem;  }
+
+p {
+    font-family: var(--font);
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;  /* TRANSITION: smooth link color change */
+}
 
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
-#hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('images/vanguard-hero.jpg') no-repeat center center/cover;
-    height: 80vh;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    padding: 1rem;
-    overflow: hidden;
-}
-
-#hero h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    animation: fadeUp 0.8s ease-out forwards;
-}
-
-#hero p {
-    max-width: 600px;
-    margin: 0 auto 1.5rem;
-    opacity: 0.9;
-    animation: fadeUp 0.8s ease-out 0.2s forwards;
-}
-
-#hero .btn {
-    animation: fadeUp 0.8s ease-out 0.4s forwards;
-    opacity: 0;
-}
-
-@keyframes fadeUp {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 h1.logo {
