@@ -512,6 +512,29 @@ label {
     letter-spacing: 0.03em;
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: var(--white);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 0.65rem 0.75rem;
+    font-family: var(--font);
+    font-size: 0.9rem;
+    color: var(--black);
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 768px) {
     #results {
