@@ -225,6 +225,7 @@ header {
 #main-nav ul li a:hover {
     color: var(--blue);
     background-color: rgba(0, 123, 255, 0.1);
+}
 
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
