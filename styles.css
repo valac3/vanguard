@@ -135,6 +135,9 @@ header .container {
 h1.logo {
     position: relative;
     padding-left: 4.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 h1.logo::before {
     content: "";
