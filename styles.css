@@ -505,6 +505,13 @@ form {
     flex: 1;
 }
 
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--white);
+    letter-spacing: 0.03em;
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 768px) {
     #results {
