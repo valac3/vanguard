@@ -295,6 +295,25 @@ header {
     transform: translateY(0);
 }
 
+#about {
+    background-color: var(--white);
+    padding: 3rem 0;
+}
+
+#about h2 {
+    font-size: 1.8rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 0.95rem;
+    color: var(--charcoal);
+    max-width: 800px;
+    line-height: 1.8;
+}
+
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
