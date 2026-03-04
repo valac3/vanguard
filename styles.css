@@ -130,6 +130,14 @@ header {
 /* ADD TO "INNOVATION & INVESTMENT SECTION (Photo by Kevin Matos on Unsplash) */
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
 h1.logo {
     position: relative;
     padding-left: 4.5rem;
