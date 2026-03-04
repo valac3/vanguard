@@ -14,10 +14,21 @@
 </head>
 
 <body>
-    <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
+
+    <!-- HEADER / NAV -->
     <header>
         <div class="container">
             <h1 class="logo">Vanguard</h1>
+
+            <!-- MOBILE MENU: checkbox hack — no JS needed -->
+            <!-- The label triggers the hidden checkbox; CSS toggles the nav open/closed -->
+            <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+            <label class="hamburger" for="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -28,6 +39,7 @@
         </div>
     </header>
 
+    <!-- HERO SECTION -->
     <section id="hero">
         <div class="container">
             <h2>Innovation &amp; Investment</h2>
@@ -36,13 +48,15 @@
         </div>
     </section>
 
+    <!-- ABOUT SECTION -->
     <section id="about">
         <div class="container">
             <h2>Our Expertise. Your Edge.</h2>
-            <p>We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.'</p>
+            <p>We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.</p>
         </div>
     </section>
 
+    <!-- SERVICES SECTION -->
     <section id="services">
         <div class="container">
             <h2>What We Offer</h2>
@@ -63,7 +77,7 @@
                     <h3>Digital Transformation</h3>
                     <p>Stay at the forefront of industry advancements with AI, blockchain, and automation.</p>
                 </li>
-                 <li>
+                <li>
                     <h3>Exclusive Executive Advisory Services</h3>
                     <p>Personalized insights and leadership support for C-suite executives and high-net-worth investors.</p>
                 </li>
@@ -73,14 +87,16 @@
                 </li>
             </ul>
         </div>
-    </section>   
+    </section>
 
+    <!-- RESULTS SECTION -->
     <section id="results">
         <div class="container">
             <h2>Proven Results</h2>
             <p>Our data-driven strategies have delivered outstanding ROI, leading to significant revenue growth.</p>
 
             <div class="results-container">
+                <!-- TABLE -->
                 <div class="results-table">
                     <table>
                         <caption>Profits</caption>
@@ -92,7 +108,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                             <tr>
+                            <tr>
                                 <td>2020</td>
                                 <td>$120M</td>
                                 <td>30%</td>
@@ -120,55 +136,64 @@
                         </tbody>
                     </table>
                 </div>
-                
+
+                <!-- BAR CHART -->
                 <div class="bar-chart">
                     <h3>Growth</h3>
-                    <div  id="bar-chart">
-                            <div class="bar" data-year="2020" style="--height: 30%;"></div>
-                            <div class="bar" data-year="2021" style="--height: 50%;"></div>
-                            <div class="bar" data-year="2022" style="--height: 70%;"></div>
-                            <div class="bar" data-year="2023" style="--height: 85%;"></div>
-                            <div class="bar" data-year="2024" style="--height: 100%;"></div>
+                    <div id="bar-chart">
+                        <div class="bar" data-year="2020" style="--height: 30%;"></div>
+                        <div class="bar" data-year="2021" style="--height: 50%;"></div>
+                        <div class="bar" data-year="2022" style="--height: 70%;"></div>
+                        <div class="bar" data-year="2023" style="--height: 85%;"></div>
+                        <div class="bar" data-year="2024" style="--height: 100%;"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
+    <!-- CONTACT SECTION -->
     <section id="contact">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Want to take your business to the next level? Get in touch with our elite team today.</p>
 
             <form action="#" method="post" novalidate>
+                <!-- Row 1: Full Name | Email Address -->
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <input type="email" id="email" name="email" required>
                 </div>
+                <!-- Row 2: Company Name | Industry -->
                 <div class="form-group">
                     <label for="company">Company Name</label>
-                    <input type="text" id="company" name="company" placeholder="Company Name">
+                    <input type="text" id="company" name="company">
                 </div>
                 <div class="form-group">
                     <label for="industry">Industry</label>
-                    <input type="text" id="industry" name="industry" placeholder="Industry">
+                    <input type="text" id="industry" name="industry">
                 </div>
-                <div class="form-group">
+                <!-- Row 3: Textarea spans full width -->
+                <div class="form-group full-width">
                     <label for="message">How can we help you?</label>
-                    <textarea id="message" name="message" placeholder="How can we help you?" rows="5"></textarea>
+                    <textarea id="message" name="message" rows="5"></textarea>
                 </div>
-                <button type="submit" class="btn">Submit</button>
+                <!-- Row 4: Submit spans full width -->
+                <div class="form-submit">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
             </form>
         </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
         <div class="container">
-            <p>For educational purposes only.</p>
+            <p>&copy; 2025 Vanguard. All rights reserved.</p>
             <p>Email: <a href="mailto:info@vaanguard.com">info@vaanguard.com</a></p>
             <p>Phone: <a href="tel:4801234567">480.123.4567</a></p>
         </div>
