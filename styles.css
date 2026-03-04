@@ -439,9 +439,16 @@ header {
     background: var(--charcoal);
     border-radius: 10px;
     position: relative;
-    transition: height 0.5s ease;
+    transition: background-color 0.3s ease;
     height: 0;
+    /* Animation on stepUp for 1s ease-in-out forwards */
+    animation: stepUp 1s ease-in-out forwards;
 }
+
+.bar:hover {
+    background-color: var(--white);
+}
+
 /* THIS ONE IS DONE FOR YOU */
 .bar::after {
     content: attr(data-year);
