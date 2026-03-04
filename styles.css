@@ -102,6 +102,20 @@ header, section, footer {
     animation: fadeUp 0.8s ease-out forwards;
 }
 
+#hero p {
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    opacity: 0.9;
+    animation: fadeUp 0.8s ease-out 0.2s forwards;
+}
+
+#hero .btn {
+    animation: fadeUp 0.8s ease-out 0.4s forwards;
+    opacity: 0;
+}
+
+
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 h1.logo {
     position: relative;
