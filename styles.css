@@ -535,6 +535,28 @@ textarea:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
+footer {
+    background-color: var(--black);
+    border-top: 1px solid var(--charcoal);
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: rgba(234, 234, 234, 0.7);
+    line-height: 1.8;
+}
+
+footer a {
+    color: var(--blue);
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 768px) {
     #results {
