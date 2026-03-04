@@ -69,8 +69,8 @@ table {
 body {
     min-width: 400px;
     font-family: var(--font);
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--charcoal);
     line-height: 1.6;
 }
 
