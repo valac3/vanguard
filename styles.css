@@ -96,6 +96,12 @@ header, section, footer {
     overflow: hidden;
 }
 
+#hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    animation: fadeUp 0.8s ease-out forwards;
+}
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 h1.logo {
     position: relative;
