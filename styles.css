@@ -149,6 +149,15 @@ header {
     transition: color 0.3s ease;
 }
 
+.logo:hover {
+    color: var(--blue);
+}
+
+.logo-img {
+    width: 2rem;
+    height: 2rem;
+}
+
 
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
