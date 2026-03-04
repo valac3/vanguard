@@ -640,3 +640,32 @@ footer a:hover {
 /* MEDIA QUERIES (LARGE) */
 @media (min-width: 1024px) {
 }
+
+@media (min-width: 1024px) {
+
+    /* Services 3-column grid */
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Hero */
+    #hero h1 {
+        font-size: 3.25rem;
+    }
+
+    #about h2 {
+        font-size: 2.2rem;
+    }
+
+    #about p {
+        font-size: 1.05rem;
+    }
+
+    /* Section padding */
+    #about,
+    #services,
+    #results,
+    #contact {
+        padding: 4rem 0;
+    }
+}
