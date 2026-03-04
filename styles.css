@@ -138,24 +138,18 @@ header {
     position: relative;
 }
 
-h1.logo {
-    position: relative;
-    padding-left: 4.5rem;
-    font-size: 1.5rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
 }
-h1.logo::before {
-    content: "";
-    position: absolute;
-    left:-.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 3.75rem;
-    height: 3.75rem;
-    background: url('images/vanguard-logo.svg') no-repeat center/contain;
 
-}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
