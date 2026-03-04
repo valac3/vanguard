@@ -109,13 +109,13 @@ a {
     transition: color 0.3s ease;
 }
 
+a:hover {
+    color: var(--blue);
+}
+
 img {
     max-width: 100%;
     display: block;
-}
-
-a:hover {
-    color: var(--blue);
 }
 
 header {
