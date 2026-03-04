@@ -190,6 +190,42 @@ header {
     transform: translateY(-9px) rotate(-45deg);
 }
 
+#main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--black);
+    padding: 1rem 0;
+    border-top: 1px solid var(--charcoal);
+}
+
+#main-nav.open {
+    display: block;
+}
+
+#main-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+#main-nav ul li a {
+    display: block;
+    color: var(--white);
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#main-nav ul li a:hover {
+    color: var(--blue);
+    background-color: rgba(0, 123, 255, 0.1);
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
