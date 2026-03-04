@@ -414,6 +414,11 @@ header {
     border-bottom: none;
 }
 
+.bar-chart h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
