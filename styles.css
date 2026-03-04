@@ -243,6 +243,33 @@ header {
     animation: fadeInUp 1s ease-out forwards;
 }
 
+.hero-content h1::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: -0.5rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: url('images/vanguard-logo.svg') no-repeat center / contain;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+#hero h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+#hero p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+    color: rgba(234, 234, 234, 0.9);
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
